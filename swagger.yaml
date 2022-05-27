@@ -16,7 +16,7 @@ definitions:
         type: integer
         x-go-name: Status
     type: object
-    x-go-package: goswagger/controllers
+    x-go-package: demo-goswagger/controllers
   CommonSuccess:
     properties:
       message:
@@ -33,12 +33,12 @@ definitions:
         type: integer
         x-go-name: Status
     type: object
-    x-go-package: goswagger/controllers
+    x-go-package: demo-goswagger/controllers
   Companies:
     items:
       $ref: '#/definitions/Company'
     type: array
-    x-go-package: goswagger/models
+    x-go-package: demo-goswagger/models
   Company:
     properties:
       id:
@@ -62,7 +62,7 @@ definitions:
         type: integer
         x-go-name: Status
     type: object
-    x-go-package: goswagger/models
+    x-go-package: demo-goswagger/models
   GetCompanies:
     properties:
       data:
@@ -81,7 +81,7 @@ definitions:
         type: integer
         x-go-name: Status
     type: object
-    x-go-package: goswagger/controllers
+    x-go-package: demo-goswagger/controllers
   GetCompany:
     properties:
       data:
@@ -100,7 +100,7 @@ definitions:
         type: integer
         x-go-name: Status
     type: object
-    x-go-package: goswagger/controllers
+    x-go-package: demo-goswagger/controllers
   ReqAddCompany:
     properties:
       name:
@@ -117,7 +117,7 @@ definitions:
         type: integer
         x-go-name: Status
     type: object
-    x-go-package: goswagger/models
+    x-go-package: demo-goswagger/models
 host: localhost:5000
 info:
   title: 'Comapany Api:'
